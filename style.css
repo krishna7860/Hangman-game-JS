@@ -154,6 +154,11 @@ body {
   font-size: 1.5rem;
   text-align: center;
   padding: 0.4rem 0.2rem;
+  transition: all 0.3s;
+}
+.main-box .press-grid .press:hover {
+  transform: scale(1.5);
+  transform: rotateX(120deg);
 }
 .main-box .game {
   display: flex;
